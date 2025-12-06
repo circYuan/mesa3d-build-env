@@ -1,0 +1,6 @@
+[submodule "mesa"]
+	path = mesa
+	url = ./mesa
+[submodule "VK-GL-CTS"]
+	path = VK-GL-CTS
+	url = ./VK-GL-CTS

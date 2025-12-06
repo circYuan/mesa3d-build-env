@@ -1,0 +1,1 @@
+docker run -it -v /home/circyuan/llvm:/usr/llvm -v /home/circyuan/my_project:/usr/my_project -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR -v $XDG_RUNTIME_DIR:$XDG_RUNTIME_DIR  mesa:latest
